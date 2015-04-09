@@ -15,6 +15,12 @@
   background-image: url('https://assets.staticlp.com/destinations-next/icons/hamburger.svg');
   background-repeat: no-repeat;
 }
+.icon{
+  height: 40px;
+  width: 60px;
+  //border: 1px solid $body-background;
+  background-color: #000;
+}
 
 .icon--lp-logo {
   background-image: url("https://assets.staticlp.com/destinations-next/icons/lp-logo.svg");
@@ -28,8 +34,12 @@
   background-image: url("https://assets.staticlp.com/destinations-next/icons/chevron-right.svg");
 }
 
-.sight--line {
-  background-image: url("https://assets.staticlp.com/destinations-next/icons/sight--line.svg");
+.icon--sight {
+  background:{
+    image: url("https://assets.staticlp.com/destinations-next/icons/sight--line.svg");
+    repeat: no-repeat;
+    size: 70%;
+  }
 }
 
 .icon--white {
